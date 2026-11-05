@@ -1,0 +1,52 @@
+{
+  "facts": [
+    {
+      "id": "company-001",
+      "fact_text": "BrandGate was founded in 2024 and is headquartered in Bangalore, India",
+      "fact_type": "company_info",
+      "category": "history",
+      "source": "Company records",
+      "source_url": "https://brandgate.com/about",
+      "tags": ["founding", "location", "history"],
+      "valid_from": "2024-01-01",
+      "valid_until": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "company-002",
+      "fact_text": "BrandGate is ISO 27001 certified for information security management",
+      "fact_type": "company_info",
+      "category": "compliance",
+      "source": "ISO Certification, 2024",
+      "source_url": "https://brandgate.com/security",
+      "tags": ["security", "compliance", "iso-27001"],
+      "valid_from": "2024-06-01",
+      "valid_until": "2027-06-01",
+      "confidence": 1.0
+    },
+    {
+      "id": "company-003",
+      "fact_text": "BrandGate is SOC 2 Type II compliant",
+      "fact_type": "company_info",
+      "category": "compliance",
+      "source": "SOC 2 Audit, 2024",
+      "source_url": "https://brandgate.com/security",
+      "tags": ["security", "compliance", "soc2"],
+      "valid_from": "2024-09-01",
+      "valid_until": "2025-09-01",
+      "confidence": 1.0
+    },
+    {
+      "id": "company-004",
+      "fact_text": "BrandGate team consists of 25+ engineers, designers, and AI researchers",
+      "fact_type": "company_info",
+      "category": "team",
+      "source": "Internal HR records, 2024",
+      "source_url": "https://brandgate.com/team",
+      "tags": ["team", "headcount"],
+      "valid_from": "2024-11-01",
+      "valid_until": null,
+      "confidence": 0.95
+    }
+  ]
+}

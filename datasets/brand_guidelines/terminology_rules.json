@@ -1,0 +1,66 @@
+{
+  "guidelines": [
+    {
+      "id": "term-001",
+      "name": "Banned Superlatives",
+      "category": "terminology",
+      "description": "Superlative words that require evidence",
+      "rule_type": "deterministic",
+      "severity": "high",
+      "patterns": [
+        "best",
+        "greatest",
+        "ultimate",
+        "perfect",
+        "unbeatable",
+        "unrivaled",
+        "unmatched",
+        "supreme",
+        "optimal",
+        "flawless"
+      ],
+      "action": "flag",
+      "message": "Superlative '{match}' requires supporting evidence"
+    },
+    {
+      "id": "term-002",
+      "name": "Approved Product Names",
+      "category": "terminology",
+      "description": "Only approved product names may be used",
+      "rule_type": "deterministic",
+      "severity": "critical",
+      "approved_names": [
+        "BrandGate Pro",
+        "BrandGate Enterprise",
+        "BrandGate Analytics"
+      ],
+      "deprecated_names": [
+        "BrandGate Basic",
+        "BrandGate Premium",
+        "BG Pro",
+        "BG Enterprise"
+      ],
+      "action": "flag_and_suggest",
+      "message": "Use approved product name: '{approved}' instead of '{match}'"
+    },
+    {
+      "id": "term-003",
+      "name": "Company Name Consistency",
+      "category": "terminology",
+      "description": "Company name must be used consistently",
+      "rule_type": "deterministic",
+      "severity": "medium",
+      "approved_forms": [
+        "BrandGate",
+        "BrandGate Inc."
+      ],
+      "deprecated_forms": [
+        "Brand Gate",
+        "brandgate",
+        "BRANDGATE"
+      ],
+      "action": "flag_and_suggest",
+      "message": "Use approved form: '{approved}' instead of '{match}'"
+    }
+  ]
+}

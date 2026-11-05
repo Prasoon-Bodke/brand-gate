@@ -1,0 +1,75 @@
+{
+  "guidelines": [
+    {
+      "id": "vis-001",
+      "name": "Primary Color Palette",
+      "category": "visual",
+      "description": "Approved primary brand colors",
+      "rule_type": "deterministic",
+      "severity": "critical",
+      "colors": {
+        "navy": "#1E3A8A",
+        "blue": "#3B82F6",
+        "white": "#FFFFFF"
+      },
+      "tolerance": 0,
+      "action": "flag",
+      "message": "Color {color} is not in approved primary palette"
+    },
+    {
+      "id": "vis-002",
+      "name": "Secondary Color Palette",
+      "category": "visual",
+      "description": "Approved secondary brand colors",
+      "rule_type": "deterministic",
+      "severity": "medium",
+      "colors": {
+        "gray_50": "#F9FAFB",
+        "gray_100": "#F3F4F6",
+        "gray_500": "#6B7280",
+        "gray_900": "#111827",
+        "amber": "#F59E0B",
+        "green": "#10B981",
+        "red": "#EF4444"
+      },
+      "tolerance": 0,
+      "action": "flag",
+      "message": "Color {color} is not in approved secondary palette"
+    },
+    {
+      "id": "vis-003",
+      "name": "Logo Clear Space",
+      "category": "visual",
+      "description": "Minimum clear space around logo",
+      "rule_type": "deterministic",
+      "severity": "high",
+      "measurement": "logo_mark_height",
+      "minimum_space": 1.0,
+      "action": "flag",
+      "message": "Logo clear space violation: minimum {minimum_space}x logo mark height required"
+    },
+    {
+      "id": "vis-004",
+      "name": "Logo Proportions",
+      "category": "visual",
+      "description": "Logo must not be stretched or distorted",
+      "rule_type": "deterministic",
+      "severity": "critical",
+      "aspect_ratio_tolerance": 0.02,
+      "action": "flag",
+      "message": "Logo aspect ratio distortion detected"
+    },
+    {
+      "id": "vis-005",
+      "name": "Typography - Primary Font",
+      "category": "visual",
+      "description": "Primary font family must be Inter",
+      "rule_type": "deterministic",
+      "severity": "high",
+      "font_family": "Inter",
+      "allowed_weights": [400, 500, 600, 700],
+      "action": "flag",
+      "message": "Font {font} is not approved. Use Inter with weights 400, 500, 600, or 700"
+    }
+  ]
+}

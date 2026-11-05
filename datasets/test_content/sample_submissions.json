@@ -1,0 +1,59 @@
+{
+  "submissions": [
+    {
+      "id": "test-001",
+      "title": "Clean Brand-Compliant Content",
+      "content_type": "text",
+      "content": "BrandGate Pro helps teams maintain brand consistency across all content. Our platform processes up to 10,000 content items per hour with 99.9% uptime for Enterprise customers.",
+      "expected_findings": [],
+      "description": "Content that follows all brand guidelines"
+    },
+    {
+      "id": "test-002",
+      "title": "Content with Superlative Violations",
+      "content_type": "text",
+      "content": "BrandGate Pro is the ultimate solution for brand governance. This best-in-class platform will revolutionize your workflow with perfect accuracy.",
+      "expected_findings": [
+        {"guideline": "Banned Superlatives", "matches": ["ultimate", "best-in-class", "perfect"]},
+        {"guideline": "Claim Substantiation", "claims": ["revolutionize your workflow", "perfect accuracy"]}
+      ],
+      "description": "Content with multiple superlative violations"
+    },
+    {
+      "id": "test-003",
+      "title": "Content with Deprecated Product Names",
+      "content_type": "text",
+      "content": "Upgrade to BG Premium today! BrandGate Basic users get 50% off when switching to BG Enterprise.",
+      "expected_findings": [
+        {"guideline": "Approved Product Names", "matches": ["BG Premium", "BrandGate Basic", "BG Enterprise"]}
+      ],
+      "description": "Content using deprecated product names"
+    },
+    {
+      "id": "test-004",
+      "title": "Content with Unverified Claims",
+      "content_type": "text",
+      "content": "BrandGate processes 1 million items per hour and reduces review time by 99%. Our AI catches every single violation.",
+      "expected_findings": [
+        {"guideline": "Claim Substantiation", "claims": ["1 million items per hour", "reduces review time by 99%", "catches every single violation"]}
+      ],
+      "description": "Content with claims not backed by approved facts"
+    },
+    {
+      "id": "test-005",
+      "title": "Mixed Content - Social Media Post",
+      "content_type": "mixed",
+      "content": {
+        "text": "Just launched: BrandGate Analytics! 🚀 The ultimate dashboard for brand insights. Perfect for marketing teams!",
+        "image_description": "Screenshot of analytics dashboard with brand colors",
+        "hashtags": ["#BrandGovernance", "#AI", "#Analytics"]
+      },
+      "expected_findings": [
+        {"guideline": "Banned Superlatives", "matches": ["ultimate", "Perfect"]},
+        {"guideline": "Approved Product Names", "matches": ["BrandGate Analytics"]},
+        {"guideline": "Claim Substantiation", "claims": ["ultimate dashboard", "Perfect for marketing teams"]}
+      ],
+      "description": "Mixed content with text and image references"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "guidelines": [
+    {
+      "id": "acc-001",
+      "name": "WCAG AA Contrast - Normal Text",
+      "category": "accessibility",
+      "description": "Minimum contrast ratio for normal text",
+      "rule_type": "deterministic",
+      "severity": "high",
+      "min_ratio": 4.5,
+      "applies_to": "text",
+      "font_size_threshold": 18,
+      "action": "flag",
+      "message": "Contrast ratio {ratio}:1 fails WCAG AA (minimum 4.5:1 for normal text)"
+    },
+    {
+      "id": "acc-002",
+      "name": "WCAG AA Contrast - Large Text",
+      "category": "accessibility",
+      "description": "Minimum contrast ratio for large text",
+      "rule_type": "deterministic",
+      "severity": "high",
+      "min_ratio": 3.0,
+      "applies_to": "text",
+      "font_size_threshold": 18,
+      "action": "flag",
+      "message": "Contrast ratio {ratio}:1 fails WCAG AA (minimum 3:1 for large text)"
+    },
+    {
+      "id": "acc-003",
+      "name": "WCAG AAA Contrast - Normal Text",
+      "category": "accessibility",
+      "description": "Enhanced contrast ratio for normal text",
+      "rule_type": "deterministic",
+      "severity": "medium",
+      "min_ratio": 7.0,
+      "applies_to": "text",
+      "action": "info",
+      "message": "Contrast ratio {ratio}:1 meets WCAG AA but not AAA (7:1 for normal text)"
+    },
+    {
+      "id": "acc-004",
+      "name": "Alt Text for Images",
+      "category": "accessibility",
+      "description": "All images must have descriptive alt text",
+      "rule_type": "llm_based",
+      "severity": "high",
+      "action": "flag",
+      "message": "Image missing or has insufficient alt text"
+    },
+    {
+      "id": "acc-005",
+      "name": "Heading Structure",
+      "category": "accessibility",
+      "description": "Headings must follow logical hierarchy (h1-h6)",
+      "rule_type": "deterministic",
+      "severity": "medium",
+      "action": "flag",
+      "message": "Heading level skipped: {from} to {to}"
+    }
+  ]
+}

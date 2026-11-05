@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "id": "prod-001",
+      "fact_text": "BrandGate supports 15+ file formats including PDF, DOCX, PPTX, JPG, PNG, MP4, MOV",
+      "fact_type": "product_info",
+      "category": "formats",
+      "source": "Product documentation",
+      "source_url": "https://docs.brandgate.com/formats",
+      "tags": ["formats", "file-support", "features"],
+      "valid_from": "2024-01-01",
+      "valid_until": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "prod-002",
+      "fact_text": "BrandGate integrates with Slack, Microsoft Teams, Figma, Notion, and Confluence",
+      "fact_type": "product_info",
+      "category": "integrations",
+      "source": "Product documentation",
+      "source_url": "https://docs.brandgate.com/integrations",
+      "tags": ["integrations", "slack", "teams", "figma", "notion", "confluence"],
+      "valid_from": "2024-03-01",
+      "valid_until": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "prod-003",
+      "fact_text": "BrandGate offers SSO via SAML 2.0, OIDC, and LDAP",
+      "fact_type": "product_info",
+      "category": "authentication",
+      "source": "Product documentation",
+      "source_url": "https://docs.brandgate.com/sso",
+      "tags": ["sso", "saml", "oidc", "ldap", "authentication"],
+      "valid_from": "2024-05-01",
+      "valid_until": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "prod-004",
+      "fact_text": "BrandGate provides REST API and GraphQL endpoints for programmatic access",
+      "fact_type": "product_info",
+      "category": "api",
+      "source": "API documentation",
+      "source_url": "https://api.brandgate.com/docs",
+      "tags": ["api", "rest", "graphql", "developer"],
+      "valid_from": "2024-02-01",
+      "valid_until": null,
+      "confidence": 1.0
+    },
+    {
+      "id": "prod-005",
+      "fact_text": "BrandGate deploys on AWS, GCP, Azure, or on-premises via Docker/Kubernetes",
+      "fact_type": "product_info",
+      "category": "deployment",
+      "source": "Deployment guide",
+      "source_url": "https://docs.brandgate.com/deployment",
+      "tags": ["deployment", "aws", "gcp", "azure", "kubernetes", "docker"],
+      "valid_from": "2024-04-01",
+      "valid_until": null,
+      "confidence": 1.0
+    }
+  ]
+}

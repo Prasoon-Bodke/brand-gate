@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "id": "claim-001",
+      "fact_text": "BrandGate Pro processes up to 10,000 content items per hour",
+      "fact_type": "claim",
+      "category": "performance",
+      "source": "Internal benchmarking, Q4 2024",
+      "source_url": "https://docs.brandgate.com/performance",
+      "tags": ["performance", "pro", "throughput"],
+      "valid_from": "2024-10-01",
+      "valid_until": null,
+      "confidence": 0.95
+    },
+    {
+      "id": "claim-002",
+      "fact_text": "BrandGate Enterprise supports 50+ concurrent users per workspace",
+      "fact_type": "claim",
+      "category": "scalability",
+      "source": "Load testing results, Q4 2024",
+      "source_url": "https://docs.brandgate.com/enterprise",
+      "tags": ["enterprise", "scalability", "concurrency"],
+      "valid_from": "2024-10-01",
+      "valid_until": null,
+      "confidence": 0.98
+    },
+    {
+      "id": "claim-003",
+      "fact_text": "AI-powered brand checking reduces manual review time by up to 80%",
+      "fact_type": "claim",
+      "category": "efficiency",
+      "source": "Customer case studies, 2024",
+      "source_url": "https://brandgate.com/case-studies",
+      "tags": ["ai", "efficiency", "time-savings"],
+      "valid_from": "2024-08-01",
+      "valid_until": null,
+      "confidence": 0.85
+    },
+    {
+      "id": "claim-004",
+      "fact_text": "Three-tier AI pipeline catches 95% of brand violations before human review",
+      "fact_type": "claim",
+      "category": "accuracy",
+      "source": "Internal testing, Q3 2024",
+      "source_url": "https://docs.brandgate.com/ai-pipeline",
+      "tags": ["ai", "accuracy", "detection-rate"],
+      "valid_from": "2024-07-01",
+      "valid_until": null,
+      "confidence": 0.90
+    },
+    {
+      "id": "claim-005",
+      "fact_text": "Supports real-time collaboration for teams of up to 100 members",
+      "fact_type": "claim",
+      "category": "collaboration",
+      "source": "Product specifications, 2024",
+      "source_url": "https://docs.brandgate.com/collaboration",
+      "tags": ["collaboration", "real-time", "teams"],
+      "valid_from": "2024-11-01",
+      "valid_until": null,
+      "confidence": 0.95
+    }
+  ]
+}

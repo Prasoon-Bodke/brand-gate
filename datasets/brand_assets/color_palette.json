@@ -1,0 +1,133 @@
+{
+  "palettes": [
+    {
+      "id": "palette-001",
+      "name": "Primary Brand Colors",
+      "description": "Core brand identity colors - do not modify",
+      "colors": [
+        {
+          "name": "Navy",
+          "hex": "#1E3A8A",
+          "rgb": {"r": 30, "g": 58, "b": 138},
+          "hsl": {"h": 224, "s": 64, "l": 33},
+          "role": "primary",
+          "usage": "Primary brand color, headings, primary buttons, logo"
+        },
+        {
+          "name": "Blue",
+          "hex": "#3B82F6",
+          "rgb": {"r": 59, "g": 130, "b": 246},
+          "hsl": {"h": 221, "s": 83, "l": 60},
+          "role": "primary",
+          "usage": "Secondary brand color, links, accents, hover states"
+        },
+        {
+          "name": "White",
+          "hex": "#FFFFFF",
+          "rgb": {"r": 255, "g": 255, "b": 255},
+          "hsl": {"h": 0, "s": 0, "l": 100},
+          "role": "neutral",
+          "usage": "Backgrounds, text on dark surfaces, logo white variant"
+        }
+      ]
+    },
+    {
+      "id": "palette-002",
+      "name": "Neutral Grays",
+      "description": "Neutral colors for text, borders, backgrounds",
+      "colors": [
+        {
+          "name": "Gray 50",
+          "hex": "#F9FAFB",
+          "role": "background",
+          "usage": "Page backgrounds, subtle card backgrounds"
+        },
+        {
+          "name": "Gray 100",
+          "hex": "#F3F4F6",
+          "role": "background",
+          "usage": "Card backgrounds, input backgrounds, hover states"
+        },
+        {
+          "name": "Gray 200",
+          "hex": "#E5E7EB",
+          "role": "border",
+          "usage": "Borders, dividers, disabled states"
+        },
+        {
+          "name": "Gray 300",
+          "hex": "#D1D5DB",
+          "role": "border",
+          "usage": "Input borders, secondary dividers"
+        },
+        {
+          "name": "Gray 400",
+          "hex": "#9CA3AF",
+          "role": "text",
+          "usage": "Placeholder text, disabled text, icons"
+        },
+        {
+          "name": "Gray 500",
+          "hex": "#6B7280",
+          "role": "text",
+          "usage": "Secondary text, metadata, captions"
+        },
+        {
+          "name": "Gray 600",
+          "hex": "#4B5563",
+          "role": "text",
+          "usage": "Body text, labels"
+        },
+        {
+          "name": "Gray 700",
+          "hex": "#374151",
+          "role": "text",
+          "usage": "Primary body text, headings"
+        },
+        {
+          "name": "Gray 800",
+          "hex": "#1F2937",
+          "role": "text",
+          "usage": "Headings, emphasis"
+        },
+        {
+          "name": "Gray 900",
+          "hex": "#111827",
+          "role": "text",
+          "usage": "Main headings, high emphasis text"
+        }
+      ]
+    },
+    {
+      "id": "palette-003",
+      "name": "Semantic Colors",
+      "description": "Colors for status, feedback, and semantic meaning",
+      "colors": [
+        {
+          "name": "Success",
+          "hex": "#10B981",
+          "role": "semantic",
+          "usage": "Success states, positive metrics, approved items"
+        },
+        {
+          "name": "Warning",
+          "hex": "#F59E0B",
+          "role": "semantic",
+          "usage": "Warning states, attention needed, pending review"
+        },
+        {
+          "name": "Error",
+          "hex": "#EF4444",
+          "role": "semantic",
+          "usage": "Error states, critical violations, rejected items"
+        },
+        {
+          "name": "Info",
+          "hex": "#3B82F6",
+          "role": "semantic",
+          "usage": "Informational states, tips, neutral findings"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "fonts": [
+    {
+      "id": "font-001",
+      "name": "Inter",
+      "family": "Inter",
+      "category": "sans-serif",
+      "source": "Google Fonts",
+      "license": "SIL Open Font License 1.1",
+      "weights": [
+        {"weight": 400, "name": "Regular", "usage": "Body text, UI text"},
+        {"weight": 500, "name": "Medium", "usage": "Emphasis, labels, buttons"},
+        {"weight": 600, "name": "SemiBold", "usage": "Headings, strong emphasis"},
+        {"weight": 700, "name": "Bold", "usage": "Main headings, hero text"}
+      ],
+      "fallbacks": ["system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans-serif"],
+      "usage": "Primary typeface for all brand communications",
+      "download_url": "https://fonts.google.com/specimen/Inter"
+    },
+    {
+      "id": "font-002",
+      "name": "JetBrains Mono",
+      "family": "JetBrains Mono",
+      "category": "monospace",
+      "source": "Google Fonts",
+      "license": "SIL Open Font License 1.1",
+      "weights": [
+        {"weight": 400, "name": "Regular", "usage": "Code blocks, technical documentation"},
+        {"weight": 500, "name": "Medium", "usage": "Inline code, API references"}
+      ],
+      "fallbacks": ["ui-monospace", "SFMono-Regular", "Menlo", "Monaco", "Consolas", "monospace"],
+      "usage": "Monospace font for code, technical content, and data display",
+      "download_url": "https://fonts.google.com/specimen/JetBrains+Mono"
+    }
+  ]
+}

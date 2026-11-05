@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "id": "logo-001",
+      "name": "Primary Logo - Full Color",
+      "asset_type": "logo",
+      "variant": "primary",
+      "file_path": "assets/logos/brandgate-primary.svg",
+      "file_format": "SVG",
+      "dimensions": {"width": 320, "height": 80},
+      "colors": ["#1E3A8A", "#3B82F6"],
+      "clear_space": {"unit": "logo_mark_height", "value": 1.0},
+      "usage": "Primary brand identifier for all external communications",
+      "download_url": "https://brandgate.com/assets/logos/brandgate-primary.svg"
+    },
+    {
+      "id": "logo-002",
+      "name": "Primary Logo - White",
+      "asset_type": "logo",
+      "variant": "white",
+      "file_path": "assets/logos/brandgate-white.svg",
+      "file_format": "SVG",
+      "dimensions": {"width": 320, "height": 80},
+      "colors": ["#FFFFFF"],
+      "clear_space": {"unit": "logo_mark_height", "value": 1.0},
+      "usage": "On dark backgrounds only",
+      "download_url": "https://brandgate.com/assets/logos/brandgate-white.svg"
+    },
+    {
+      "id": "logo-003",
+      "name": "Primary Logo - Monochrome",
+      "asset_type": "logo",
+      "variant": "monochrome",
+      "file_path": "assets/logos/brandgate-mono.svg",
+      "file_format": "SVG",
+      "dimensions": {"width": 320, "height": 80},
+      "colors": ["#111827"],
+      "clear_space": {"unit": "logo_mark_height", "value": 1.0},
+      "usage": "Single-color printing, fax, watermarks",
+      "download_url": "https://brandgate.com/assets/logos/brandgate-mono.svg"
+    },
+    {
+      "id": "logo-004",
+      "name": "Logo Mark Only",
+      "asset_type": "logo",
+      "variant": "mark_only",
+      "file_path": "assets/logos/brandgate-mark.svg",
+      "file_format": "SVG",
+      "dimensions": {"width": 80, "height": 80},
+      "colors": ["#1E3A8A", "#3B82F6"],
+      "clear_space": {"unit": "mark_height", "value": 1.0},
+      "usage": "App icons, favicons, social avatars, tight spaces",
+      "download_url": "https://brandgate.com/assets/logos/brandgate-mark.svg"
+    }
+  ]
+}
